@@ -12,6 +12,13 @@ Skydiving is an inherently dangerous activity. Mounting any device to a parachut
 
 Paratag is a small GPS transmitter designed to be mounted on a skydiving rig. It transmits its position over radio to a ground receiver, which relays the data to a phone app and cloud server in real time.
 
+<div align="center">
+  <a href="https://www.youtube.com/playlist?list=PLRnppc4hiiLs" title="Paratag How-To Guide — Watch on YouTube">
+    <img src="https://i.ytimg.com/vi/LNZTzKj6ZiU/hqdefault.jpg" alt="Paratag How-To Guide" width="480"><br>
+    ▶&nbsp;Watch the How-To Guide on YouTube
+  </a>
+</div>
+
 ### Mounting
 
 <!-- TODO: describe recommended mounting location on the rig, hardware required, TSO/PMA considerations -->
