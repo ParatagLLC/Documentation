@@ -10,7 +10,7 @@ SIZE = 20          # canvas size in pixels
 RADIUS = 8         # circle radius
 CENTER = SIZE // 2
 COLOR_BLUE = (68, 136, 255)
-COLOR_OFF = (255, 255, 255)  # white background to represent LED off
+COLOR_OFF = (200, 200, 200)  # gray circle = LED off
 BG = (255, 255, 255)        # white background
 
 OUTPUT_DIR = os.path.join(os.path.dirname(__file__), "images", "led")
