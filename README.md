@@ -43,12 +43,12 @@ Paratag is a small GPS transmitter designed to be mounted on a skydiving rig. It
 
 | Pattern | Meaning | Animation |
 |---------|---------|:-------:|
-| One short Blink | Paratag turned Off | <div align="center"><img src="images/led/led_off.gif"></div> |
-| Long blink with a brief gap | Paratag turned On | <div align="center"><img src="images/led/led_on.gif"></div> |
+| One short Blink | Paratag turned Off | <div align="center"><img src="https://paratagllc.github.io/Documentation/led/led_off.gif"></div> |
+| Long blink with a brief gap | Paratag turned On | <div align="center"><img src="https://paratagllc.github.io/Documentation/led/led_on.gif"></div> |
 | **Repeating:** |  | |
-| Heartbeat | GPS Aligning | <div align="center"><img src="images/led/led_heartbeat.gif"></div> |
-| Occasional Blink | Transmitting / Waiting for landing acknowledgement | <div align="center"><img src="images/led/led_transmit.gif"></div> |
-| Half on / half off (blue) | Pairing mode | <div align="center"><img src="images/led/led_pairing.gif"></div> |
+| Heartbeat | GPS Aligning | <div align="center"><img src="https://paratagllc.github.io/Documentation/led/led_heartbeat.gif"></div> |
+| Occasional Blink | Transmitting / Waiting for landing acknowledgement | <div align="center"><img src="https://paratagllc.github.io/Documentation/led/led_transmit.gif"></div> |
+| Half on / half off (blue) | Pairing mode | <div align="center"><img src="https://paratagllc.github.io/Documentation/led/led_pairing.gif"></div> |
 
 ---
 
