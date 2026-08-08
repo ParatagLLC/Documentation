@@ -24,17 +24,16 @@ def make_frame(color):
     x0, y0 = CENTER - RADIUS, CENTER - RADIUS
     x1, y1 = CENTER + RADIUS, CENTER + RADIUS
     draw.ellipse([x0, y0, x1, y1], fill=color)
-    return img.convert("P", palette=Image.ADAPTIVE, colors=16)
+    return img
 
 
 ON = make_frame(COLOR_BLUE)
 OFF = make_frame(COLOR_OFF)
 
 
-def save_gif(filename, pattern, scale=1):
+def save_gif(filename, pattern):
     """
-    pattern: list of (frame, duration_ms) tuples
-             frame = True (on) or False (off)
+    pattern: list of (is_on, duration_ms) tuples
     """
     frames = []
     durations = []
@@ -49,7 +48,7 @@ def save_gif(filename, pattern, scale=1):
         append_images=frames[1:],
         loop=0,
         duration=durations,
-        disposal=2,
+        optimize=False,
     )
     print(f"Saved: {path}")
 
