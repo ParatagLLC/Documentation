@@ -43,12 +43,12 @@ Paratag is a small GPS transmitter designed to be mounted on a skydiving rig. It
 
 | Pattern | Meaning | Animation |
 |---------|---------|:-------:|
-| One short Blink | Paratag turned Off | ![](images/led/led_off.gif) |
-| Long blink with a brief gap | Paratag turned On | ![](images/led/led_on.gif) |
+| One short Blink | Paratag turned Off | <div align="center"><img src="images/led/led_off.gif"></div> |
+| Long blink with a brief gap | Paratag turned On | <div align="center"><img src="images/led/led_on.gif"></div> |
 | **Repeating:** |  | |
-| Heartbeat | GPS Aligning | ![](images/led/led_heartbeat.gif) |
-| Occasional Blink | Transmitting / Waiting for landing acknowledgement | ![](images/led/led_transmit.gif) |
-| Half on / half off (blue) | Pairing mode | ![](images/led/led_pairing.gif) |
+| Heartbeat | GPS Aligning | <div align="center"><img src="images/led/led_heartbeat.gif"></div> |
+| Occasional Blink | Transmitting / Waiting for landing acknowledgement | <div align="center"><img src="images/led/led_transmit.gif"></div> |
+| Half on / half off (blue) | Pairing mode | <div align="center"><img src="images/led/led_pairing.gif"></div> |
 
 ---
 
