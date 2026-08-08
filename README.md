@@ -54,14 +54,14 @@ Paratag is a small GPS transmitter designed to be mounted on a skydiving rig. It
 ## App Status
 
 | Feature | Android | iOS |
-|---------|---------|---------|
-|Download Link|[![Google Play](images/500px-Google_Play_2022_icon.svg.webp)Google Play](https://play.google.com/store/apps/details?id=com.flyparatag.groundstation)|[![TestFlight](images/500px-App_Store_(iOS).svg.webp)<br>Public Beta<br>Still in review by Apple](https://testflight.apple.com/join/Mu6J4kQU)|
-| Receive live Paratag positions | ✅ | ✅ |
-| Change Paratag settings | ✅ | ✅ |
-| Receive live Paratag positions | ✅ | ✅ |
-| Receive live Paratag positions | ✅ | ✅ |
-| Download logs | ✅ | ❌ |
-| OTA Firmware Updates | ✅ | ❌ |
+|---------|:-------:|:-------:|
+|Download Link|[<img src="images/500px-Google_Play_2022_icon.svg.webp" width="75" alt="Google Play"> Google Play](https://play.google.com/store/apps/details?id=com.flyparatag.groundstation)|[<img src="images/500px-App_Store_(iOS).svg.webp" width="75" alt="App Store"><br>Public Beta — Still in review by Apple](https://testflight.apple.com/join/Mu6J4kQU)|
+| Receive live Paratag positions | <span style="font-size:2em">✅</span> | <span style="font-size:2em">✅</span> |
+| Change Paratag settings | <span style="font-size:2em">✅</span> | <span style="font-size:2em">✅</span> |
+| Receive live Paratag positions | <span style="font-size:2em">✅</span> | <span style="font-size:2em">✅</span> |
+| Receive live Paratag positions | <span style="font-size:2em">✅</span> | <span style="font-size:2em">✅</span> |
+| Download logs | <span style="font-size:2em">✅</span> | <span style="font-size:2em">❌</span> |
+| OTA Firmware Updates | <span style="font-size:2em">✅</span> | <span style="font-size:2em">❌</span> |
 
 ### Creating a Paratag Account / Signing In
 
