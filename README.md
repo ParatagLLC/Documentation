@@ -55,7 +55,7 @@ Paratag is a small GPS transmitter designed to be mounted on a skydiving rig. It
 
 | Feature | Android | iOS |
 |---------|---------|---------|
-|Download Link|[![Google Play](images\500px-Google_Play_2022_icon.svg.webp)Google Play](https://play.google.com/store/apps/details?id=com.flyparatag.groundstation)|[![TestFlight](images\500px-App_Store_(iOS).svg.webp)<br>Public Beta<br>Still in review by Apple](https://testflight.apple.com/join/Mu6J4kQU)|
+|Download Link|[![Google Play](images/500px-Google_Play_2022_icon.svg.webp)Google Play](https://play.google.com/store/apps/details?id=com.flyparatag.groundstation)|[![TestFlight](images/500px-App_Store_(iOS).svg.webp)<br>Public Beta<br>Still in review by Apple](https://testflight.apple.com/join/Mu6J4kQU)|
 | Receive live Paratag positions | ✅ | ✅ |
 | Change Paratag settings | ✅ | ✅ |
 | Receive live Paratag positions | ✅ | ✅ |
