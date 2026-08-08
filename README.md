@@ -41,74 +41,14 @@ Paratag is a small GPS transmitter designed to be mounted on a skydiving rig. It
 ### LEDs
 
 
-<style>
-.led {
-  display: inline-block;
-  width: 14px;
-  height: 14px;
-  border-radius: 50%;
-}
-.led-blue  { background-color: #4488ff; box-shadow: 0 0 5px #4af; }
-
-/* One short blink (turned off): 100ms on, then off — padded to 3s cycle */
-@keyframes anim-off {
-  0%     { opacity: 1; }
-  3.33%  { opacity: 1; }
-  3.34%  { opacity: 0; }
-  100%   { opacity: 0; }
-}
-/* AAD blink (turned on): 800ms on, 100ms off, 1000ms on — padded to 5s cycle */
-@keyframes anim-on {
-  0%     { opacity: 1; }
-  16%    { opacity: 1; }
-  16.01% { opacity: 0; }
-  18%    { opacity: 0; }
-  18.01% { opacity: 1; }
-  38%    { opacity: 1; }
-  38.01% { opacity: 0; }
-  100%   { opacity: 0; }
-}
-/* Heartbeat (GPS aligning): 100ms on, 100ms off, 100ms on, 700ms off — total 1000ms */
-@keyframes anim-heartbeat {
-  0%     { opacity: 1; }
-  10%    { opacity: 1; }
-  10.01% { opacity: 0; }
-  20%    { opacity: 0; }
-  20.01% { opacity: 1; }
-  30%    { opacity: 1; }
-  30.01% { opacity: 0; }
-  100%   { opacity: 0; }
-}
-/* Occasional blink (transmitting): 4900ms off, 100ms on — total 5000ms */
-@keyframes anim-transmit {
-  0%     { opacity: 0; }
-  98%    { opacity: 0; }
-  98.01% { opacity: 1; }
-  100%   { opacity: 1; }
-}
-/* Half on / half off (pairing): 1000ms on, 1000ms off — total 2000ms */
-@keyframes anim-pairing {
-  0%     { opacity: 1; }
-  50%    { opacity: 1; }
-  50.01% { opacity: 0; }
-  100%   { opacity: 0; }
-}
-
-.led-anim-off       { animation: anim-off       3s   linear infinite; }
-.led-anim-on        { animation: anim-on         5s   linear infinite; }
-.led-anim-heartbeat { animation: anim-heartbeat  1s   linear infinite; }
-.led-anim-transmit  { animation: anim-transmit   5s   linear infinite; }
-.led-anim-pairing   { animation: anim-pairing    1s   linear infinite; }
-</style>
-
 | Pattern | Meaning | Animation |
-|---------|---------|---------|
-| One short Blink | Paratag turned Off | <div align="center"><span class="led led-blue led-anim-off"></span></div> |
-| Long blink with a brief gap | Paratag turned On | <div align="center"><span class="led led-blue led-anim-on"></span></div> |
+|---------|---------|:-------:|
+| One short Blink | Paratag turned Off | ![](images/led/led_off.gif) |
+| Long blink with a brief gap | Paratag turned On | ![](images/led/led_on.gif) |
 | **Repeating:** |  | |
-| Heartbeat | GPS Aligning | <div align="center"><span class="led led-blue led-anim-heartbeat"></span></div> |
-| Occasional Blink | Transmitting / Waiting for landing acknowledgement | <div align="center"><span class="led led-blue led-anim-transmit"></span></div> |
-| Half on / half off (blue) | Pairing mode | <div align="center"><span class="led led-blue led-anim-pairing"></span></div> |
+| Heartbeat | GPS Aligning | ![](images/led/led_heartbeat.gif) |
+| Occasional Blink | Transmitting / Waiting for landing acknowledgement | ![](images/led/led_transmit.gif) |
+| Half on / half off (blue) | Pairing mode | ![](images/led/led_pairing.gif) |
 
 ---
 

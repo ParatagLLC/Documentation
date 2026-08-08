@@ -1,0 +1,11 @@
+[workspace]
+authors = ["Paratag <noreply@flyparatag.com>"]
+channels = ["conda-forge"]
+name = "Documentation"
+platforms = ["win-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+pillow = ">=12.3.0,<13"
