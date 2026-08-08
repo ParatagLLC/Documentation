@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Paratag LED Patterns</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 0 20px;
+      color: #1f2328;
+    }
+    h1 { border-bottom: 1px solid #d1d9e0; padding-bottom: 8px; }
+    table {
+      border-collapse: collapse;
+      width: 100%;
+    }
+    th, td {
+      border: 1px solid #d1d9e0;
+      padding: 8px 12px;
+      text-align: left;
+    }
+    th { background: #f6f8fa; }
+    td:last-child { text-align: center; }
+    .back { font-size: 0.9em; margin-bottom: 24px; }
+    .back a { color: #0969da; text-decoration: none; }
+    .back a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+  <p class="back"><a href="https://github.com/YOUR_USERNAME/YOUR_REPO#readme">← Back to README</a></p>
+  <h1>Paratag LED Patterns</h1>
+  <p>Animated reference for all LED blink patterns on the Paratag device.</p>
+  <table>
+    <thead>
+      <tr>
+        <th>Pattern</th>
+        <th>Meaning</th>
+        <th>Animation</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>One short Blink</td>
+        <td>Paratag turned Off</td>
+        <td><img src="led/led_off.gif" alt="One short blink"></td>
+      </tr>
+      <tr>
+        <td>Long blink with a brief gap</td>
+        <td>Paratag turned On</td>
+        <td><img src="led/led_on.gif" alt="Long blink with brief gap"></td>
+      </tr>
+      <tr>
+        <td colspan="3"><strong>Repeating patterns:</strong></td>
+      </tr>
+      <tr>
+        <td>Heartbeat</td>
+        <td>GPS Aligning</td>
+        <td><img src="led/led_heartbeat.gif" alt="Heartbeat"></td>
+      </tr>
+      <tr>
+        <td>Occasional Blink</td>
+        <td>Transmitting / Waiting for landing acknowledgement</td>
+        <td><img src="led/led_transmit.gif" alt="Occasional blink"></td>
+      </tr>
+      <tr>
+        <td>Half on / half off (blue)</td>
+        <td>Pairing mode</td>
+        <td><img src="led/led_pairing.gif" alt="Pairing mode"></td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+</html>
