@@ -1,10 +1,9 @@
 # Paratag User Manual
 
----
 
-## Legal Disclaimer
+## Disclaimer
 
-Skydiving is an inherently dangerous activity. Mounting any device to a parachute system introduces additional risk. It is the sole responsibility of the jumper and the rigger of the parachute system to assess whether mounting a Paratag is appropriate for their equipment and jump conditions. The manufacturers of Paratag accept no liability for injury, death, or equipment damage arising from use or misuse of this device.
+Skydiving is an inherently dangerous activity. Mounting any device to a parachute system introduces additional risk. It is the sole responsibility of the skydiver jumping with Paratag to have their installation approved by a current, certified rigger to assess whether mounting a Paratag is appropriate for their equipment and jump conditions. By using Paratag you accept all risks of injury or death resulting from use or misuse of this device.
 
 ---
 
@@ -17,35 +16,52 @@ Paratag is a small GPS transmitter designed to be mounted on a skydiving rig. It
     <img src="https://i.ytimg.com/vi/LNZTzKj6ZiU/hqdefault.jpg" alt="Paratag How-To Guide" width="480"><br>
     ▶&nbsp;Watch the How-To Guide on YouTube
   </a>
+  <br>
+  <br>
+  <br>
 </div>
 
+
+
+![Paratag receiver](images/Paratag_Infographic.png)
 ### Mounting
 
 <!-- TODO: describe recommended mounting location on the rig, hardware required, TSO/PMA considerations -->
 
 ### Using the Buttons
 
-<!-- TODO: describe button functions (power on, pairing mode, etc.) -->
+
+| Press | Meaning |
+|---------|---------|
+| AAD Tap Sequence | Turn on / Turn off |
+| Short tap | Wake Radio<br> Transmit STATUS message<br>Check GPS Alignment |
+| Hold | Pairing mode |
+| Double tap | Cancel GPS Alignment |
 
 ### LEDs
 
 | Pattern | Meaning |
 |---------|---------|
+| One short Blink | Paratag turned Off |
+| Long blink with a brief gap | Paratag turned On |
+| **Repeating:** |  |
+| Heartbeat | GPS Aligning |
+| Occasional Blink | Transmitting / Waiting for landing acknowledgement |
 | Half on / half off (blue) | Pairing mode |
-| <!-- TODO --> | <!-- TODO --> |
 
 ---
 
-## App
+## App Status
 
-Two companion apps exist:
-
-- **Paratag Groundstation** — Android
-- **Paratag** — iOS
-
-Both of these apps are designed to listen to Paratag radio traffic and relay it to the Paratag server.
-
-Screenshots below are from both apps.
+| Feature | Android | iOS |
+|---------|---------|---------|
+|Download Link|[![Google Play](images\500px-Google_Play_2022_icon.svg.webp)Google Play](https://play.google.com/store/apps/details?id=com.flyparatag.groundstation)|[![TestFlight](images\500px-App_Store_(iOS).svg.webp)<br>Public Beta<br>Still in review by Apple](https://testflight.apple.com/join/Mu6J4kQU)|
+| Receive live Paratag positions | ✅ | ✅ |
+| Change Paratag settings | ✅ | ✅ |
+| Receive live Paratag positions | ✅ | ✅ |
+| Receive live Paratag positions | ✅ | ✅ |
+| Download logs | ✅ | ❌ |
+| OTA Firmware Updates | ✅ | ❌ |
 
 ### Creating a Paratag Account / Signing In
 
