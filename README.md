@@ -136,8 +136,10 @@ If you would like to keep a Receiver set up permanently at your DropZone, [pleas
 
 To set up a permanent groundstation, just connect an phone to a Receiver like normal, go to the settings, and enable "Permanent Groundstation". We also recommend that the phone be set to not have a lock PIN, that way the app should immediately restart after a reboot.
 
+<div align="center">
 <div style="display:flex; justify-content: center; gap:8px;">
   <img src="images/permanent_groundstation.png" width="200" alt="Devices">
+</div>
 </div>
 
 You can also set up improved antennas for your permanent groundstation like [this magnetic one](https://www.amazon.com/Meshtastic-Magnetic-Extension-Development-Slinkdsco/dp/B0FG6XXSTW). Antennas should be tuned for 915MHz in the North/South America, Australia, and New Zealand. Europe through Africa mostly uses 863MHz.
