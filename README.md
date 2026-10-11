@@ -74,17 +74,19 @@ The app connects to a receiver over Bluetooth.
 
 ![Paratag receiver](images/paratag_receiver.jpg)
 Tap the 3 dot icon ⋮ in the top-right of the app and choose "Bluetooth connections"
-![Top-Right Menu](images/top_right_menu.png)
+<div style="display:flex; gap:8px;">
+  <img src="images/top_right_menu.png" width="200" alt="3-dot icon">
+</div>
 Your Paratag Receiver should appear in this screen if it's on.
-![Paratag receiver](images/bluetooth_screen.png)
+<div style="display:flex; gap:8px;">
+  <img src="images/top_right_menu.png" width="200" alt="Bluetooth scan screen">
+</div>
 The top of the map screen should now say "Receiver connected"
-![Paratag receiver](images/receiver_connected.png)
+<div style="display:flex; gap:8px;">
+  <img src="images/receiver_connected.png" width="200" alt="Receiver connected">
+</div>
 
 Your app will now download any Paratag messages stored on the receiver, and can now receive any 
-
-<div style="display:flex; gap:8px;">
-  <img src="images/groundstation_app_bluetooth.png" width="200" alt="Bluetooth scan screen">
-</div>
 
 ### Pairing a New Paratag via the App
 
@@ -93,13 +95,18 @@ Your app will now download any Paratag messages stored on the receiver, and can 
 3. In the app, tap the three-dot icon ⋮ in the top right open **Pair New Paratag** and tap **Send Pairing Request**.
 4. Repeat until the app confirms pairing succeeded.
 
-![Pairing screen](images/pairing.png)
+<div style="display:flex; gap:8px;">
+  <img src="images/receiver_connected.png" width="200" alt="Pairing suceeded">
+</div>
+
 
 ### Register a Paired Paratag to Your Account
 
 Visit https://app.flyparatag.com/#/registerdevice to begin registering a paratag to your account. It will ask you about a Paratag ID. This is the unique identifier number assigned to your Paratag, and will appear in your app
 
-![Register your Paratag](images/register_webapp.png)
+<div style="display:flex; gap:8px;">
+  <img src="images/register_webapp.png" width="200" alt="Pairing suceeded">
+</div>
 
 After pairing, open the device detail screen and tap **REGISTER PARATAG** (Android) or **Register to account** (iOS) to associate the beacon with your online account.
 
@@ -113,7 +120,9 @@ After pairing, open the device detail screen and tap **REGISTER PARATAG** (Andro
 
 The main screen lists your paired beacons, other beacons heard by the receiver, and the receiver itself. Each card shows the last-seen time, battery level, and current state.
 
-![Main device list](images/iOS_app_devices.png)
+<div style="display:flex; gap:8px;">
+  <img src="images/iOS_app_devices.png" width="200" alt="Devices">
+</div>
 
 ### Device Details Screen
 
@@ -127,7 +136,9 @@ If you would like to keep a Receiver set up permanently at your DropZone, [pleas
 
 To set up a permanent groundstation, just connect an phone to a Receiver like normal, go to the settings, and enable "Permanent Groundstation". We also recommend that the phone be set to not have a lock PIN, that way the app should immediately restart after a reboot.
 
-![Permanent Groundstation](images/permanent_groundstation.png)
+<div style="display:flex; gap:8px;">
+  <img src="images/permanent_groundstation.png" width="200" alt="Devices">
+</div>
 
 You can also set up improved antennas for your permanent groundstation like [this magnetic one](https://www.amazon.com/Meshtastic-Magnetic-Extension-Development-Slinkdsco/dp/B0FG6XXSTW). Antennas should be tuned for 915MHz in the North/South America, Australia, and New Zealand. Europe through Africa mostly uses 863MHz.
 
