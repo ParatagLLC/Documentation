@@ -56,13 +56,13 @@ Paratag is a small GPS transmitter designed to be mounted on a skydiving rig. It
 
 | Feature | Android | iOS |
 |---------|:-------:|:-------:|
-|Download Link|[<img src="images/500px-Google_Play_2022_icon.svg.webp" width="75" alt="Google Play"><br>Google Play](https://play.google.com/store/apps/details?id=com.flyparatag.groundstation)|[<img src="images/500px-App_Store_(iOS).svg.webp" width="75" alt="App Store"><br>Public Beta<br>Still in review by Apple](https://testflight.apple.com/join/Mu6J4kQU)|
+|Download Link|[<img src="images/500px-Google_Play_2022_icon.svg.webp" width="75" alt="Google Play"><br>Google Play](https://play.google.com/store/apps/details?id=com.flyparatag.groundstation)|[<img src="images/500px-App_Store_(iOS).svg.webp" width="75" alt="App Store"><br>App Store](https://apps.apple.com/gh/app/paratag/id6793327939)|
 | Receive live Paratag positions | <span style="font-size:2em">✅</span> | <span style="font-size:2em">✅</span> |
 | Change Paratag settings | <span style="font-size:2em">✅</span> | <span style="font-size:2em">✅</span> |
 | Receive live Paratag positions | <span style="font-size:2em">✅</span> | <span style="font-size:2em">✅</span> |
 | Receive live Paratag positions | <span style="font-size:2em">✅</span> | <span style="font-size:2em">✅</span> |
-| Download logs | <span style="font-size:2em">✅</span> | <span style="font-size:2em">❌</span> |
-| OTA Firmware Updates | <span style="font-size:2em">✅</span> | <span style="font-size:2em">❌</span> |
+| Download logs | <span style="font-size:2em">✅</span> | <span style="font-size:2em">✅</span> |
+| OTA Firmware Updates | <span style="font-size:2em">✅</span> | <span style="font-size:2em">✅</span> |
 
 ### Creating a Paratag Account / Signing In
 
@@ -73,8 +73,14 @@ Paratag is a small GPS transmitter designed to be mounted on a skydiving rig. It
 The app connects to a receiver over Bluetooth.
 
 ![Paratag receiver](images/paratag_receiver.jpg)
+Tap the 3 dot icon ⋮ in the top-right of the app and choose "Bluetooth connections"
+![Top-Right Menu](images/top_right_menu.png)
+Your Paratag Receiver should appear in this screen if it's on.
+![Paratag receiver](images/bluetooth_screen.png)
+The top of the map screen should now say "Receiver connected"
+![Paratag receiver](images/receiver_connected.png)
 
-<!-- TODO: describe how to pair the phone to the receiver for the first time -->
+Your app will now download any Paratag messages stored on the receiver, and can now receive any 
 
 <div style="display:flex; gap:8px;">
   <img src="images/groundstation_app_bluetooth.png" width="200" alt="Bluetooth scan screen">
@@ -84,10 +90,10 @@ The app connects to a receiver over Bluetooth.
 
 1. Turn on the Paratag (like an AAD).
 2. Hold the button until the LED flashes blue (half on / half off) — this is pairing mode.
-3. In the app, open **Pair New Device** and tap **SEND PAIRING REQUEST**.
+3. In the app, tap the three-dot icon ⋮ in the top right open **Pair New Paratag** and tap **Send Pairing Request**.
 4. Repeat until the app confirms pairing succeeded.
 
-![Pairing screen](images/groundstation_app_pairing.png)
+![Pairing screen](images/pairing.png)
 
 ### Register a Paired Paratag to Your Account
 
@@ -98,8 +104,9 @@ Visit https://app.flyparatag.com/#/registerdevice to begin registering a paratag
 After pairing, open the device detail screen and tap **REGISTER PARATAG** (Android) or **Register to account** (iOS) to associate the beacon with your online account.
 
 <div style="display:flex; gap:8px;">
-  <img src="images/groundstation_app_device_details.png" width="200" alt="Android device details">
-  <img src="images/iOS_app_device_details.png" width="200" alt="iOS device details">
+  <img src="images/position_status_text.png" width="200" alt="Device Info Screen">
+  <br>
+  <img src="images/device_options.png" width="200" alt="Options">
 </div>
 
 ### Seeing All Paratag Devices
@@ -114,9 +121,19 @@ Tapping a device shows its last known GPS position, altitude, rate of ascent, st
 
 ---
 
+## Permanent Groundstation
+
+If you would like to keep a Receiver set up permanently at your DropZone, [please contact us](https://flyparatag.com/contact/) for a FREE receiver! All you need to buy is a [$30 Android phone](https://www.walmart.com/ip/ST-MOTOROLA-XT2513V-CDMA-LTE-GRAY-HANDSET-64GB-WALMART-POSA/14552506783), or use a spare if you already have one. iPhones might work, but we recommend Android for this because Android apps can be designed to run all the time in the background.
+
+To set up a permanent groundstation, just connect an phone to a Receiver like normal, go to the settings, and enable "Permanent Groundstation". We also recommend that the phone be set to not have a lock PIN, that way the app should immediately restart after a reboot.
+
+![Permanent Groundstation](images/permanent_groundstation.png)
+
+You can also set up improved antennas for your permanent groundstation like [this magnetic one](https://www.amazon.com/Meshtastic-Magnetic-Extension-Development-Slinkdsco/dp/B0FG6XXSTW). Antennas should be tuned for 915MHz in the North/South America, Australia, and New Zealand. Europe through Africa mostly uses 863MHz.
+
 ## Website
 
-<!-- TODO: URL for the Paratag web portal -->
+https://app.flyparatag.com
 
 ### Jump Logs
 
