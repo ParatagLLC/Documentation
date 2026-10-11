@@ -123,7 +123,7 @@ Visit https://app.flyparatag.com/#/registerdevice to begin registering a paratag
   </div>
 </div>
 
-After pairing, open the device detail screen and tap **REGISTER PARATAG** (Android) or **Register to account** (iOS) to associate the beacon with your online account.
+After pairing, open the device detail screen and tap **REGISTER PARATAG** (Android) or **Register to account** (iOS) to associate the Paratag with your online account.
 
 <div align="center">
   <div style="display:flex; gap:8px;">
@@ -135,11 +135,11 @@ After pairing, open the device detail screen and tap **REGISTER PARATAG** (Andro
 
 ### Seeing All Paratag Devices
 
-The main screen lists your paired beacons, other beacons heard by the receiver, and the receiver itself. Each card shows the last-seen time, battery level, and current state.
+The main screen lists your paired Paratags, other Paratags heard by the receiver, and the receiver itself. Each card shows the last-seen time, battery level, and current state.
 
 <div align="center">
   <div style="display:flex; gap:8px;">
-    <img src="images/iOS_app_devices.png" width="200" alt="Devices">
+    <img src="images/receiver_connected.png" width="200" alt="Receiver connected">
   </div>
 </div>
 
